@@ -1,0 +1,316 @@
+/**
+*! changing defult styles of browser**/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box; 
+}
+* {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+label {
+    display: contents;
+    margin-bottom: 5px;
+     flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: center;
+    width: 45%;
+    font-weight: bolder;
+    font-size: large;
+}
+form div input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 0 21px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+form div {
+    position: absolute; 
+}
+input:focus {
+    border: 2px solid #f2796e;
+}
+form div {
+    position: relative;
+    padding: 10px;
+}
+.title {
+    font-weight: bold;
+    font-size: large;
+}
+.failure-icon,
+.error {
+    color: red;
+}
+.success-icon {
+    color: green;
+}
+.error {
+    font-size: 14.5px;
+    margin-top: 5px;
+}
+.success-icon,
+.failure-icon {
+    right: 0;
+    opacity: 0;
+}
+button {
+    width: 80%;
+    height: 45px;
+    background-color: #f2796e;
+    border: 2px solid #f2796e;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 700ms ease-in-out;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    margin-right: 8%;
+}
+.btn-1,
+.btn-2 {
+    padding: 9px 8px;
+    width: 40%;
+    gap: 12px;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    background-color: tomato;
+    cursor: pointer;
+    transition: all 700ms ease-in-out;
+}
+.btn-2 {
+    background-color: tomato;
+    color: white;
+}
+.btn-2:hover {
+    background-color: blue;
+    color: white;
+}
+.btn-1:hover {
+    background-color: blue;
+    color: white;
+}
+.or {
+    text-align: center;
+    padding-top: 9%;
+    font-size: larger;
+    font-weight: bolder;
+}
+.question {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: whitesmoke;
+}
+.question>div {
+    font-weight: bolder;
+    font-size: larger;
+}
+span {
+    color: #f2796e;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.content {
+    background-image: url(./images/team-2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    width: 55%;
+    text-transform: capitalize;
+    text-align: center;
+    max-height: 100vh;
+    padding: 10px 10px;
+
+}
+.text {
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 33%;
+    padding-top: 35%;
+}
+.social {
+    background-color: #fff;
+    gap: 3px;
+    padding: 3px;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.question>h1 {
+    font-weight: bold;
+    font-size: medium;
+}
+.bars>i {
+    cursor: pointer;
+    padding-left: 10%;
+}
+.sideview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    transition: width 600ms ease;
+    overflow: hidden;
+    background: white;
+    font-weight: bold;  
+}
+.sideview>a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+.sideview>a:hover {
+    background-color: lightgrey;
+}
+.sideview>div {
+    padding: 1rem;
+    text-align: center;
+}
+.color {
+    background-color: rgb(22, 21, 21);
+    height: 350px;
+}
+.back {
+    background: rgb(42, 40, 40);
+    color: white;
+    height: 250px;
+    font-weight: bold;
+    padding-top: 1%;
+    font-size: large;
+    text-transform: capitalize;
+    padding-left: 6%;
+}
+.back>h2 {
+    font-size: small;
+    font-weight: bold; 
+}
+.back>h3 {
+    font-size: small;
+    font-weight: bold;
+}
+.back>i {
+    padding: 7px 8px;
+    border-color: brown;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: gray;
+}
+.back>i:hover {
+    background-color: yellow;
+    color: black;
+    transition: all 700ms ease-in-out;
+}
+.ice>h1 {
+    font-weight: bold;
+    font-size: large;
+    padding-left: 39%;
+    padding-top: 1%;
+    color: white;
+    text-transform: capitalize;
+}
+.ice>span {
+    color: gold;
+}
+/* .back>i {
+    text-align: center;
+    justify-content: center;
+} */
+.back> {
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+
+/*screen with a width of 900px*/
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .content {
+        width: 100%;
+    }
+    .btn {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-1 {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .btn-2 {
+        width: 100%;
+    }
+    .image {
+        height: 70vh;
+    }
+    .content {
+        background-image: url(./images/slide-17.jpg)
+    }
+    .text {
+        visibility: visible;
+    }
+    .sideview {
+        position: absolute;
+        background: white;
+        height: 50vh;
+    }
+    .bars {
+        z-index: 1;
+        margin-bottom: 30%;
+    }
+     .ice>h1 {
+        padding-left: 7%;
+    }
+}
+@media(max-width: 500px) {
+    .label {
+        padding: 20px;
+    }
+     .social {
+        width: 100%;
+    }
+   
+}
+
